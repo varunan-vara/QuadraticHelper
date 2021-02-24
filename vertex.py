@@ -12,11 +12,11 @@ def xint(a, b, c):
 	firstcoord = a + b + c
 	if (vertexcoord[1] > 0):
 		if (firstcoord > vertexcoord[1]):
-			return ["No x interecepts present", "No x interecepts present"]
+			return [None, None]
 			pass
 	else:
 		if firstcoord < vertexcoord[1]:
-			return ["No x interecepts present", "No x interecepts present"]
+			return [None, None]
 			pass
 	intercept1 = ((0 - b) + math.sqrt((b * b) - (4 * a * c))) / (2 * a)
 	intercept2 = ((0 - b) - math.sqrt((b * b) - (4 * a * c))) / (2 * a)
