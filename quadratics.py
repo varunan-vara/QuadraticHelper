@@ -60,5 +60,6 @@ elif "--help" in opts:
 	parser.add_argument("--equation", help="Convert equations from one form to another")
 	args = parser.parse_args()
 	print(args.accumulate(args.integers))
+	print("\n\n")
 
 
