@@ -26,3 +26,8 @@ def xint(a, b, c):
 def yint(a, b, c):
 	return c
 
+def intersection(a1, b1, c1, a2, b2, c2):
+	pass
+
+def slopeequation(a, b, c):
+	pass

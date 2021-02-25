@@ -3,6 +3,7 @@ print("\n#############################################\n------------- Quadratics
 #Imports
 import sys
 import argparse
+import tkinter
 
 import vertex
 import translate

@@ -3,6 +3,10 @@ import math
 import vertex as vert
 
 def convertEquation(fromv, tov):
+	print("This process does not yield correct answers yet")
+	if fromv == tov:
+		return "Not a valid conversion - Same to and from format... ending procees"
+		pass
 	vertex = [0, 0]
 	yint = 0
 	xint = [0, 0]
